@@ -43,7 +43,8 @@ O projeto busca simular uma gestão real de um sistema de estoque usando banco d
 - **Python 3.13**  
 - **SQLite** (banco de dados local e leve)  
 - **Matplotlib** (visualização gráfica)  
-- **Tabulate** (tabelas organizadas no terminal)  
+- **Tabulate** (tabelas organizadas no terminal)
+- **Datetime** (datas e hora em tempo real)
 
 ## 💡 Como executar:
 1. Certifique-se de ter o Python instalado em sua máquina.
@@ -51,6 +52,7 @@ O projeto busca simular uma gestão real de um sistema de estoque usando banco d
 3. Intale o Tabulate (caso necessário): Documentação oficial: https://pypi.org/project/tabulate/
 4. SQlite - o arquivo python criará o banco de dados `estoque_produtos.db` automaticamente.
 Caso queira baixar: Documentação oficial: https://www.sqlite.org/download.html
-5. Execute o arquivo `main.py` a partir do terminal ou editor.
+5. `datetime` é uma biblioteca natural do python.
+6. Execute o arquivo `main.py` a partir do terminal ou editor.
 
 
