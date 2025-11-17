@@ -1,8 +1,7 @@
 # 🍰 Confeitaria Lumiere - Sistema de Controle de Estoque
 
 Sistema desenvolvido para gerenciar o estoque de produtos da Confeitaria Lumiere, com cadastro, listagem, movimentação e análise de dados.
-
----
+O projeto busca simular uma gestão real de um sistema de estoque usando banco de dados.
 
 ## ✨ Funcionalidades
 
@@ -37,10 +36,8 @@ Sistema desenvolvido para gerenciar o estoque de produtos da Confeitaria Lumiere
 9. **Dashboard Gráfico**  
    - **Gráfico de linha:** entradas e saídas ao longo do tempo.  
    - **Gráfico de barra:** estoque atual por produto.  
-   - (`Matplotlib`).  
-
----
-
+   - (`Matplotlib`).
+   - 
 ## 🛠 Linguagem e Bibliotecas Utilizadas
 
 - **Python 3.13**  
@@ -48,8 +45,12 @@ Sistema desenvolvido para gerenciar o estoque de produtos da Confeitaria Lumiere
 - **Matplotlib** (visualização gráfica)  
 - **Tabulate** (tabelas organizadas no terminal)  
 
----
-
 ## 💡 Como executar:
+1. Certifique-se de ter o Python instalado em sua máquina.
+2. Instale o Matplotlib (caso necessário): Documentação oficial: https://matplotlib.org/stable/
+3. Intale o Tabulate (caso necessário): Documentação oficial: https://pypi.org/project/tabulate/
+4. SQlite - o arquivo python criará o banco de dados `estoque_produtos.db` automaticamente.
+Caso queira baixar: Documentação oficial: https://www.sqlite.org/download.html
+5. Execute o arquivo `main.py` a partir do terminal ou editor.
 
 
