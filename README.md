@@ -5,7 +5,7 @@ O projeto busca simular uma gestão real de um sistema de estoque usando banco d
 
 ## ✨ Funcionalidades
 
-1. **Cadastro de Produtos**  
+1. **Cadastro de Produtos**
    - Inserção de nome, preço, quantidade, categoria (MP, PP, EMB, INS) e unidade (KG, L, UN, CX).  
 
 2. **Listagem de Produtos**  
